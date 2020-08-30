@@ -8,7 +8,7 @@ class Numpad extends React.Component {
       const row = [];
       for(let j = 0; j < 3; j++) {
         row.push(
-          <Button value={3*i+ j} />
+          <Button value={3*i+ j + 1} />
         );
       }
       layout.push(
