@@ -11,9 +11,11 @@ class Screen extends React.Component {
 }
 
 const  screenStyle = {
+  boxSizing: "border-box",
   width: '100%',
   height: 50,
   border: '2px solid black',
+  textAlign: 'right',
 }
 
 export default Screen;
