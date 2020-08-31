@@ -19,4 +19,3 @@ const buttonStyle = {
 }
 
 export default Button;
-
