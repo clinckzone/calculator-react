@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './Button';
+import {category} from './category';
 
 class Numpad extends React.Component {
   generateLayout() {
@@ -7,8 +8,9 @@ class Numpad extends React.Component {
     for(let i = 0; i < 3; i++) {
       const row = [];
       for(let j = 0; j < 3; j++) {
+        const num = 3*i + j + 1;
         row.push(
-          <Button handleClick={() => this.props.handleClick(3*i + j + 1)} value={3*i+ j + 1} />
+          <Button handleClick={() => this.props.handleClick(num, category.NUMBER)} value={num} />
         );
       }
       layout.push(
