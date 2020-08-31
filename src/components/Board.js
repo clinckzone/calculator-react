@@ -37,7 +37,7 @@ class Board extends React.Component {
             <Numpad handleClick={this.handleClick} />
             <Functionpad handleClick={this.handleClick} />
           </div>
-          <Operatorpad/>
+          <Operatorpad handleClick={this.handleClick}/>
         </div>
       </div>
     );
