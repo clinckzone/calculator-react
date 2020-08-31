@@ -4,7 +4,7 @@ class Screen extends React.Component {
   render() {
     return (
       <div style={screenStyle}>
-        0123456789
+        {this.props.value}
       </div>
     );
   }
