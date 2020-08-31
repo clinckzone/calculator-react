@@ -14,11 +14,18 @@ class Board extends React.Component {
   }
 
   handleClick(value) {
-    this.setState(
-      (state) => ({
-        value: state.value + value,
+    if(value == 'AC') {
+      this.setState({
+        value: '',
       })
-    );
+    }
+    else {
+      this.setState(
+        (state) => ({
+          value: state.value + value.toString(),
+        })
+      );
+    }
   }
 
   render() {
@@ -28,7 +35,7 @@ class Board extends React.Component {
         <div style={compositionStyle1}>
           <div style={compositionStyle2}>
             <Numpad handleClick={this.handleClick} />
-            <Functionpad/>
+            <Functionpad handleClick={this.handleClick} />
           </div>
           <Operatorpad/>
         </div>

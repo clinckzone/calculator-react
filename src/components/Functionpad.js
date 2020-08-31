@@ -4,9 +4,9 @@ import Button from './Button';
 class Functionpad extends React.Component {
   generateLayout() {
     const layout = [
-      <Button value="AC"/>,
-      <Button value="0"/>,
-      <Button value="."/>,
+      <Button handleClick={() => this.props.handleClick('AC')} value="AC"/>,
+      <Button handleClick={() => this.props.handleClick(0)} value="0"/>,
+      <Button handleClick={() => this.props.handleClick('.')} value="."/>,
     ];
     return layout;
   }
