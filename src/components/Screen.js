@@ -16,6 +16,9 @@ const  screenStyle = {
   height: 50,
   border: '2px solid black',
   textAlign: 'right',
+  background: 'black',
+  color: 'white',
+  fontWeight: 700,
 }
 
 export default Screen;
