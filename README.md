@@ -1,6 +1,8 @@
 # calculator-react
+
 A simple implementation of calculator on react
-![calculator-react](https://user-images.githubusercontent.com/28980632/153388118-66185b7c-2a6b-4d7c-9be9-cd2465029dca.gif)
+
+<img src="https://user-images.githubusercontent.com/28980632/153388118-66185b7c-2a6b-4d7c-9be9-cd2465029dca.gif" height="400">
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
