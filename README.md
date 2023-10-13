@@ -8,6 +8,11 @@ A simple implementation of calculator using react that lets you evaluate arithme
 In the project directory, you can run:
 
 ```js
+npm install
+```
+- Install the required npm packages needed to run the project
+
+```js
 npm start
 ```
 - Runs the app in the development mode.<br />
