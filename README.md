@@ -1,6 +1,6 @@
 # calculator-react
 
-A simple implementation of calculator using react that lets you evaluate arithmetic expressions of any complexit
+A simple implementation of calculator using react that lets you evaluate arithmetic expressions of any complexity.
 
 <img src="https://user-images.githubusercontent.com/28980632/153627353-f42db890-836c-42a6-9a15-c8c1c2232e40.gif" height="400">
 
