@@ -11,11 +11,11 @@ export class Interpreter {
   }
 
   nodeVisitor(node) {
-    const visitor = `visit_${node.constructor.name}`;
+    const visitor = `visit_${node.name}`;
     if (this[visitor]) {
       return this[visitor](node);
     } else {
-      throw new Error(`No method found for type ${node.constructor.name}`);
+      throw new Error(`Operator not found`);
     }
   }
 
