@@ -2,7 +2,7 @@
 
 A simple implementation of calculator using react that lets you evaluate arithmetic expressions of any complexity.
 
-<img src="https://user-images.githubusercontent.com/28980632/153627353-f42db890-836c-42a6-9a15-c8c1c2232e40.gif" height="400">
+![ezgif com-video-to-gif (1)](https://github.com/clinckzone/calculator-react/assets/28980632/bb186850-3491-403a-b097-7fbbb95c3d51)
 
 ## Setup for local development
 
